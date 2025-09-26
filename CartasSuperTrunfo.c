@@ -6,7 +6,7 @@ int main(){
   char NomeCidade[20] = "Goiania";
   int Populacao = 1456741;
   float Area = 729.29; //km²
-  float PIB = 59.90; //bilhoes de reais
+  float PIB = 59000000000; //bilhoes de reais
   int NumerosPontosTuristicos = 60;
 
  
@@ -15,7 +15,7 @@ int main(){
   char nomecidade[20] = "Presidente Prudente";
   int populacao = 234706;
   float area = 560.63; //km²
-  float pib = 14.60; //milhoes de reais
+  float pib = 14000000; //milhoes de reais
   int numerospontosturisticos = 20;
 
 printf("Desafio Super Trunfo - Cidades\n");
@@ -39,7 +39,7 @@ printf("Código da Carta: %s\n", codigocarta);
 printf("Nome da Cidade: %s\n", nomecidade);
 printf("População (milhões): %.3d\n", populacao);
 printf("Área (km²): %.2f\n", area);
-printf("PIB (bilhões): %.2f\n", pib);
+printf("PIB (milhões): %.2f\n", pib);
 printf("Numeros de Pontos Turísticos: %d\n", numerospontosturisticos);
 
 return 0;
